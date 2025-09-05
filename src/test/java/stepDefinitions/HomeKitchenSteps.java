@@ -1,6 +1,5 @@
 package stepDefinitions;
 
-import org.openqa.selenium.WebDriver;
 import io.cucumber.java.en.*;
 import pages.HomePage;
 import utils.BaseUtil;
