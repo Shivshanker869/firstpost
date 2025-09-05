@@ -18,19 +18,26 @@ The framework is built using **Selenium WebDriver, BDD (Cucumber), and TestNG/JU
 ---
 
 ## 🏗️ Project Structure
+
+```
 Naaptol-Automation/
-│── src/main/java/
-│ ├── pages/ # Page Object Model classes
-│ ├── utils/ # Utility classes (Waits, ConfigReader, etc.)
+├── src
+│   ├── main
+│   │   └── java
+│   │       ├── pages/            # Page Object Model classes
+│   │       └── utils/            # Utility classes (Waits, ConfigReader, etc.)
+│   │
+│   └── test
+│       └── java
+│           ├── features/         # Cucumber Feature files
+│           ├── stepDefinitions/  # Step Definitions for BDD
+│           ├── runners/          # Test Runners (TestNG/JUnit)
+│           └── tests/            # Test Classes
 │
-│── src/test/java/
-│ ├── features/ # Cucumber Feature files
-│ ├── stepDefinitions/ # Step Definitions for BDD
-│ ├── runners/ # Test Runners (TestNG/JUnit)
-│ ├── tests/ # Test Classes
-│
-│── reports/ # Cucumber/Extent Reports
-│── pom.xml # Maven dependencies
+├── reports/                      # Cucumber / Extent Reports
+├── pom.xml                       # Maven dependencies
+
+```
 
 
 ---
